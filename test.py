@@ -1,0 +1,1 @@
+print("Successfully created first gihub actions hehe :)")
