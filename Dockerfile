@@ -1,3 +1,5 @@
+# sample docker file
+
 FROM python:alpine3.21
 WORKDIR /sample-flaskapp
 # COPY r.txt requirements.txt
