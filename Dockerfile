@@ -1,5 +1,6 @@
 # sample docker file
 #  second line
+#  some random stuff
 
 FROM python:alpine3.21
 WORKDIR /sample-flaskapp
