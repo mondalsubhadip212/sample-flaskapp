@@ -3,8 +3,6 @@ on:
   push:
     branches:
       - dev
-
-
 jobs:
   push-code:
     runs-on: cicd-hyperv
