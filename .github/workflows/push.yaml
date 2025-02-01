@@ -17,11 +17,11 @@ jobs:
         python-version: '3.13' 
     - name: install dependencies
       run: |
-      python -m pip install --upgrade pip
-      pip install -r r.txt
+        python -m pip install --upgrade pip
+        pip install -r r.txt
     - name:
       run: |
-      python test.py
+        python test.py
 
 
 
