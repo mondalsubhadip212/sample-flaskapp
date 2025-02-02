@@ -5,7 +5,7 @@ on:
 jobs:
   run-cron:
     runs-on: cicd-hyperv
-    name: Running sample cron jobs :)
+    # name: Running sample cron jobs :)
     steps:
       - name: First step of cron
         run: |
