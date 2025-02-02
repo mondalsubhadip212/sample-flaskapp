@@ -4,6 +4,7 @@ on:
     - cron: '*/2 * * * *'
 jobs:
   run-cron:
+    runs-on: cicd-hyperv
     name: Running sample cron jobs :)
     steps:
       - name: First step of cron
