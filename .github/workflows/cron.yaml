@@ -7,6 +7,6 @@ jobs:
     runs-on: cicd-hyperv
     # name: Running sample cron jobs :)
     steps:
-      - name: First step of cron
-        run: |
-          echo "hey you this is not working anymore :()"
+    - name: First step of cron
+      run: |
+        echo "hey you this is not working anymore :()"
