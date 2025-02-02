@@ -1,7 +1,7 @@
 name: Cron Jobs on cicd-hyperv
 on:
   schedule:
-    - cron: '*/5 * * * *'
+    - cron: '*/15 * * * *'
 jobs:
   run-cron:
     runs-on: cicd-hyperv
