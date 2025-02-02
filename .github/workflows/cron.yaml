@@ -8,4 +8,4 @@ jobs:
     steps:
       - name: First step of cron
         run: |
-        echo "hey you this is not working anymore :()"
+          echo "hey you this is not working anymore :()"
