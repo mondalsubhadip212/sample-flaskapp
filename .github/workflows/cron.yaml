@@ -1,0 +1,11 @@
+name: Cron Jobs on cicd-hyperv
+on:
+  schedule:
+    - cron: '*/2 * * * *'
+jobs:
+  run-cron:
+    name: Running sample cron jobs :)
+    steps:
+      - name: First step of cron
+        run: |
+        echo "hey you this is not working anymore :()"
